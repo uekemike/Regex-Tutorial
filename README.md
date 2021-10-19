@@ -22,10 +22,33 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
+- Matching Fixed Strings
+- Matching Special Characters
+- Matching Character Sets
+- Specifying Groups and Fields
+- Evaluating Occurrences
+- Specifying Location
+- Specifying Alternatives
+- Matching Information from a Table
+- Capturing Multiple Lines
+- Managing the Scope of Analysis
 
 ### Anchors
 
 ### Quantifiers
+Quantifiers specify how many instances of a character, group, or character class must be present in the input for a match to be found.
+
+
+| Greedy quantifier  | Lazy quantifier      | Description                 | 
+|--------------------|----------------------|-----------------------------|  
+| *                  | *?                   | Match zero or more times.   | 
+| +                  | +?                   |Match one or more times.     | 
+| ?                  | ??                   | Match zero or one time.     |
+| { n }              | { n }?               | Match exactly n times.      |
+| { n ,}             | { n ,}?              | Match at least n times      |
+| { n , m }          | { n , m }?           | Match from n to m times.    |
+
+The quantities n and m are integer constants. Ordinarily, quantifiers are greedy; they cause the regular expression engine to match as many occurrences of particular patterns as possible. Appending the ? character to a quantifier makes it lazy; it causes the regular expression engine to match as few occurrences as possible.
 
 ### Grouping Constructs
 
