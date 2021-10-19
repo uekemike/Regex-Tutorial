@@ -1,9 +1,10 @@
-# HandleBars
+# Regex - Regular Expressions
 
 Developers write code, but they also *write about code*. 
 
-Objective of this tutorial is to explains how a specific regular expression by name Handlebars,  works by breaking down each part of the expression and describing what it does.
+Objective of this tutorial is to explains how a specific regular expression can be used, by breaking down each part of the expression and describing what it does.
 
+A regular expression (or "regex") is a search pattern used for matching one or more characters within a string.
 
 ## Summary
 
