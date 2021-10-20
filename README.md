@@ -118,7 +118,7 @@ The backslash character ( \ ) is the escaping character. It can be used to denot
 
     - \t Matches a tab, \u0009.
     - \n Matches a new line, \u000A.
-    
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+The Author of this ReadMe is Ufuoma Ekemike (uekemike@github.com)
